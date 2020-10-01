@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: lightgrey;
+}
+.container{
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.header{
+    height: 50px;
+    font-size: 20px;  
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.nav ul li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background:black;
+    transition: 0.5s;
+    border-radius: 15%;
+}
+.nav ul li{
+    display: inline-flex;
+    padding:  0 20px;
+
+    
+}
+.nav ul li  :hover{
+    background : #f0f229;
+    color: black;
+}
